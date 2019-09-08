@@ -11,3 +11,210 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 99Vh;
+}
+
+main{
+  display: flex;
+  flex: 1;
+}
+
+footer{
+  height: 10vh;
+}
+
+header{
+  display: flex;
+    flex-direction: column;
+    height: 24vh;
+    z-index: 2;
+
+}
+.headerWrapper ul, .goodSearch{
+  display: flex;
+}
+
+.logo{
+  padding: 20px;
+}
+
+.headerWrapper li{
+  padding: 10px 5px;
+}
+
+header button{
+  margin-left: 25px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 35px;
+  font-size: 16px;
+}
+
+.fa-search{
+  position: relative;
+  color: gray;
+  left: 25px;
+  top: 7px;
+}
+
+header input{
+  padding-left: 30px
+}
+
+.fa-vk, .fa-facebook-official{
+  color: blue;
+}
+
+.fa-instagram{
+  color:pink;
+}
+
+.fa-google-plus-square{
+  color: orange;
+}
+
+
+.hello, .logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.pay{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.headerWrapper, .iconsWrapper, footer{
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+}
+
+.iconsWrapper i{
+  font-size: 35px;
+}
+header a{
+  color: white;
+}
+header a:hover{
+  color: green;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search{
+  display: flex
+}
+
+nav{
+width: 15vw;
+background-color: white;
+}
+
+a{
+  color: green;
+  text-decoration: none;
+}
+aside {   
+   display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  background-color: white;
+}
+article div:nth-child(2){
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+article{
+  flex: 1;
+}
+
+nav{
+  order: -1;
+}
+aside div{
+  width: 95%;
+  /* height: 45%; */
+}
+
+nav div:first-child{
+  background-color: green;
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+nav li{
+  padding: 5px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  height: 7vh;
+}
+footer a img{
+  height: 100%;
+  width: auto;
+}
+footer div:not(:first-child){
+  display: flex;
+  align-items: center
+}
+footer a{
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+.mainWrapper {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.goods {
+  display: flex;
+    flex-wrap: wrap;
+}
+.good-card {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.main-wrapper {
+  height: 65vh;
+  overflow:auto;
+  width: 100%;
+}
+.super-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.fEidzb {
+  position: relative;
+  /* height: 450px; */
+  width: 100%}
+  
+  .list {
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+  }

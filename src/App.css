@@ -31,3 +31,29 @@
     transform: rotate(360deg);
   }
 }
+
+.good-carts {
+  display: flex;
+}
+
+.basket-good {
+  margin-bottom: 30px;
+  /* background-color: green; */
+}
+.main-wrapper {
+  display: flex;
+}
+
+.basket-good-name, .basket-good-price, .basket-good-count {
+  color :black;
+}
+
+.basket-good-price, .basket-good-count {
+  font-size: 20px;
+}
+
+.total-price {
+  font-weight: bold;
+  font-size: 2em;
+  color: red;
+}
